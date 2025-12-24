@@ -1,0 +1,32 @@
+main{
+    color: aliceblue;
+    height: 100%;
+    width: 88.99%;
+    margin-left: 10.4%;
+    direction: rtl;
+    position: absolute;
+    top: 0;
+}
+#main div{
+    margin-top: 20px;
+    background-color: rgb(51, 54, 54);
+    height: 80px;
+    width: 90%;
+    margin-right: 60px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+#main div a{
+    display: inline-block;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#main div:hover{
+    background-color: rgba(13, 160, 13, 0.87);
+    transform: scale(1.1);
+}
